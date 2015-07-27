@@ -30,9 +30,7 @@ setup(
     
     include_package_data = True,
 
-    license = '360',
     long_description = 'scrapy v1.',
     
-    author_email = "yangaoquan@360.cn",
     description = "Scrapy v1 ."
 )
