@@ -13,22 +13,12 @@ class QhpageItem(Item):
     url = Field()
     title = Field()
 
-class DoubanbookItem(Item):
+class DoubanMoiveItem(Item):
+    url = Field()
     name = Field()
-    title = Field()
-    link = Field()
-    desc = Field()
-    num = Field()
-
-class DoubanSubjectItem(Item):
-    title = Field()
-    link = Field()
-    info = Field()
-    rate = Field()
-    votes = Field()
-    content_intro = Field()
-    author_intro = Field()
-    tags = Field()
+    year = Field()
+    score = Field()
+    vote = Field()
 
 class DoubanBookItem(Item):
     title = Field()
