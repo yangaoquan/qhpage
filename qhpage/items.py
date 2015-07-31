@@ -68,3 +68,28 @@ class ZhihuPeopleItem(Item):
     followers = Field()
     follow_topics = Field()
 
+class Layer01_Item(Item):
+    year = Field()
+    name = Field()
+    code = Field()
+
+class Layer02_Item(Item):
+    year = Field()
+    name = Field()
+    code = Field()
+
+class Layer03_Item(Item):
+    year = Field()
+    name = Field()
+    code = Field()
+
+class Layer04_Item(Item):
+    year = Field()
+    name = Field()
+    code = Field()
+
+class Layer05_Item(Item):
+    year = Field()
+    name = Field()
+    code = Field()
+    code2 = Field()
